@@ -14,3 +14,13 @@ def fibonacci(n):
 
 num= int(input("Enter any number: "))
 print(fibonacci(num))
+
+
+Another EX
+
+num = int(input("Enter the number of terms: "))  
+a, b = 0, 1  # First two terms
+
+for n in range(num):
+    print(a)
+    a, b = b, a + b  # Update values
